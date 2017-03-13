@@ -1,0 +1,37 @@
+#############################################################
+2015-12-25 13:39:04
+-------------------------------------------------------------
+Check IP:
+Private IP:	10.116.19.146	Private mask:	255.255.248.0
+Public  IP:	112.74.97.82	Public  mask:	255.255.252.0
+-------------------------------------------------------------
+Check route:
+Private Gateway:	10.116.23.247
+Public  Gateway:	112.74.99.247
+-------------------------------------------------------------
+Check DNS:
+options timeout:1 attempts:1 rotate
+nameserver 10.202.72.118
+nameserver 10.202.72.116
+-------------------------------------------------------------
+Check Resolve:
+64 bytes from 42.120.158.67: icmp_seq=1 ttl=54 time=26.7 ms
+64 bytes from 42.120.158.67: icmp_seq=2 ttl=54 time=26.7 ms
+64 bytes from 42.120.158.67: icmp_seq=3 ttl=54 time=26.7 ms
+64 bytes from 42.120.158.67: icmp_seq=4 ttl=54 time=26.7 ms
+--- www-adns.aliyun.com.gds.alibabadns.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 81ms
+rtt min/avg/max/mdev = 26.723/26.739/26.769/0.201 ms, pipe 3
+-------------------------------------------------------------
+Check iptables:
+pass
+-------------------------------------------------------------
+Check Disk:
+/dev/xvda1       20G  1.7G   18G   9% /
+-------------------------------------------------------------
+Check mount file:
+pass
+-------------------------------------------------------------
+Check vm Load:
+pass
+-------------------------------------------------------------
